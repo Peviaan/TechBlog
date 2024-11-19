@@ -120,12 +120,31 @@ corpo
 
 #categoria-latera {
     background: white;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
+    padding-bottom: 20px;
 }
+
+#categoria-latera a:link, #categoria-latera a:visited {
+    padding: 2px;
+    color: #f7b600;
+}
+
+#categoria-latera a:hover {
+    color:#fff;
+    background: #f7b600;
+    text-decoration: none;
+    padding: 2px;
+}
+
+#categoria-latera a {
+    display: inline-block;  /*Cada link em uma nova linha */
+}
+
 
 #rodape {
     text-align: center;
     padding: 15px;
     clear: both;
 }
+
